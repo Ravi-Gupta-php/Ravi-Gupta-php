@@ -1,0 +1,33 @@
+
+  $file = 'log.txt';
+  $current = file_get_contents($file);
+  $current .= $sql . "\n";
+  file_put_contents($file, $current);
+
+
+
+  $sql="select redcap_events_metadata.event_id from redcap_events_arms inner join redcap_events_metadata on redcap_events_arms.arm_id = redcap_events_metadata.arm_id where project_id='32' and arm_name='Arm 1' and descrip='SAE';";
+  $result = mysqli_query($conn, $sql);
+
+  	while ($row = mysqli_fetch_assoc($result)) {  
+  $file = 'log.txt';
+   $current = file_get_contents($file);
+   $current .= $row['0'] . "\n";
+   file_put_contents($file, $current);
+  	}
+
+
+
+  foreach ($output_array as $row) {
+    //$arm = $row['arm_name'];
+    $form_name = $row['descrip'];
+    //$sql = "SET @event_id = (select redcap_events_metadata.event_id from redcap_events_arms inner join redcap_events_metadata on redcap_events_arms.arm_id = redcap_events_metadata.arm_id where project_id='$project_id' and arm_name='$arm' and descrip='$form_name'); replace into redcap_events_repeat (event_id) values (@event_id);";
+    //$sql2="insert into redcap_events_repeat (event_id, form_name, custom_repeat_form_label) values ('200', null, null);";
+    //$result = mysqli_query($conn, $sql2);
+
+    //$sql = "select redcap_events_metadata.event_id from redcap_events_arms inner join redcap_events_metadata on redcap_events_arms.arm_id = redcap_events_metadata.arm_id where project_id='$project_id' and arm_name='$arm' and descrip='$form_name';";
+ 
+
+
+
+  }

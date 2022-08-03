@@ -1,0 +1,190 @@
+
+.ui-progressbar {
+    position: relative;
+    text-align: center;
+    height: auto;
+}
+
+.progress-label {
+    float: left;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+
+.progress-label-2 {
+    float: left;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+.progress-label-files {
+    float: left;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+
+.progress-label-4 {
+    float: left;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.progress-label-5 {
+    float: left;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.progress-label-6 {
+    float: left;
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.progress-label-force-sync {
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.progress-label-compare_remote_fields{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.progress-label-download-excel{
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.progress-label-record-id {
+    /* float: left; */
+    margin-top: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.transmission  {
+    width:100%;
+    margin-top:1em;
+}
+
+.transmission th  {
+    font-style: inherit;
+    font-weight: bold;
+}
+
+.transmission td  {
+    vertical-align: top;
+    padding-bottom: 10px;
+}
+
+#transmission_log {
+    margin-top: 10px;
+}
+
+.qbyq {
+    font-weight: normal;
+    font-style: oblique;
+}
+
+#record_id_input {
+    display:none;
+}
+
+#force_sync_records_input {
+    display:none;
+    text-align: left;
+}
+
+#force-upload-status {
+    text-align: left;
+}
+
+#force-upload-status-sync {
+    text-align: left;
+}
+
+/* .syncbar {
+    height: 12.5em;
+} */
+
+
+#compare_remote_fields_output_div {
+    display:none;
+    text-align: left;
+}
+
+#download_excel_button_div {
+    display:none;
+    text-align: left;
+}
+
+table.comparison-table th {
+    padding-right: 5px;
+}
+
+table.comparison-table td {
+    padding-right: 5px;
+}
+
+.red_highlight {
+    background-color:pink;
+    font-weight: bold;
+}
+
+#transmission-panel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:800px;
+}
+
+.item-transmission-menu {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.content-transmission-menu {
+    width: 580px;
+    margin-top: 10px;
+}
+
+.compare_form_header {
+    font-size: large;
+}
